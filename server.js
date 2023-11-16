@@ -3,11 +3,11 @@ const mysql = require('mysql');
 
 // Create MySQL connection
 const connection = mysql.createConnection({
-  host: 'your_database_host',
-  port: 'your_database_port',
-  user: 'your_database_user',
-  password: 'your_database_password',
-  database: 'your_database_name',
+  host: 'localhost',
+  port: '3001',
+  user: 'root',
+  password: '',
+  database: 'employee_management',
 });
 
 connection.connect((err) => {
@@ -75,9 +75,7 @@ function startApp() {
     });
 }
 
-// Implement the necessary functions (viewAllDepartments, viewAllRoles, etc.) based on your requirements.
-
-// Example viewAllDepartments function:
+// viewAllDepartments function:
 function viewAllDepartments() {
   const query = 'SELECT * FROM departments';
   connection.query(query, (err, res) => {
@@ -87,4 +85,4 @@ function viewAllDepartments() {
   });
 }
 
-// Implement other functions (viewAllRoles, viewAllEmployees, addDepartment, addRole, addEmployee, updateEmployeeRole) in a similar manner.
+// Still need (viewAllRoles, viewAllEmployees, addDepartment, addRole, addEmployee, updateEmployeeRole).
