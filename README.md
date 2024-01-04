@@ -8,6 +8,7 @@ Module 12 Assignment for the Bootcamp is to create an employee tracker using Nod
 * [Contributing](#Contributing)
 * [Tests](#Tests)
 * [Code Location](#Code)
+* [Video](#Video)
 * [Questions](#Contact-Information)
 # User Story
 AS A business owner
@@ -43,9 +44,13 @@ Download the source code and add additional styling options as needed.
 This was tested using Live Terminal in VSCode.
 
 # Code
-* Google Drive: 
+* Google Drive: https://drive.google.com/file/d/1v9gTzO3ouuZ6dElSx8n96_zijmgC7aMg/view
 * Github: https://github.com/DMylesVaughn/SQL-Employee-Tracker
 
+# Video
+* <video width="320" height="240" controls>
+  <source src="https://drive.google.com/file/d/1v9gTzO3ouuZ6dElSx8n96_zijmgC7aMg/view">
+  </video>
 
 # Contact Information 
 * GitHub Username: DMylesVaughn
